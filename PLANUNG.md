@@ -1,3 +1,34 @@
+# NeverGate Virtual Control · fortgeschriebene Planung
+
+Stand: **31.10.2026**. [Aktueller Nachweisstand](STATUS.md).
+
+## Priorität nach dem Versuch
+
+Die gemeldete Versuchsfassung 0.2.0 war schließlich sichtbar, beanspruchte mit allen Funktionen aber zu viel Platz. Deshalb zuerst kompakte Gestaltung: Fahrzeugzeile plus dünne Auftragszeile, kleine Symbole, einzeiliger Prozentbalken weiß/grün. Keine große dreizeilige Überlagerung. Das Ziel ist eine eigene geordnete Oberfläche mit eigener Gestaltung.
+
+## Festgehaltener Umfang
+
+- ETS2 und ATS, randloser Fensterbetrieb, mehrere Monitore.
+- Fahrzeugzustand: Licht, Blinker/Warnblinker, Parkbremse, Retarder, Drehzahl und Lkw-Infos.
+- Session/Server, Auftrag und Ortung mit gezielter Auswahl; dekorative Leiste optional.
+- Windows-Oberfläche NeverGate Virtual Control, linke Navigation bis unten, Overlay-Unterpunkte und Spielversionen unten links.
+- Erkennung üblicher Spielpfade, Telemetrie mitinstallieren, Spielstart/Overlay-Autostart und zentraler Ein-/Ausschalter.
+- Bestehende Installation aktualisieren können, feste nachvollziehbare Pfade; zehn vorhandene Themes bereits bei Einrichtung.
+
+## Offene Abnahme
+
+- [ ] Source-/Installer-/Telemetrieversionen und Prüfsummen nachführen.
+- [ ] Kompaktes Overlay und vollständige Anzeigeauswahl auf Windows praktisch prüfen.
+- [ ] ETS2 und ATS einzeln mit randlosem Fensterbetrieb und mehreren Monitoren abnehmen.
+- [ ] Plugininstallation, automatischer Start, Gesamtschalter, Themeauswahl und erhaltene Einstellungen nach Neustart prüfen.
+- [ ] Veraltete Messwerte/fehlendes Spiel/abweichende Pfade verständlich behandeln.
+
+Virtuelle Spedition bleibt spätere Erweiterung. Kein neuer Implementierungs- oder Releaseabschluss durch diese Dokumentation.
+
+<details><summary>Ursprüngliche Planung vom 23.10.2026</summary>
+
+Die damalige Aussage „nur Planung, kein sichtbarer Versuch belegt“ wird durch den neueren Nutzerbericht ergänzt; fehlende technische Buildnachweise bleiben offen.
+
 # NeverGate ETS-/ATS-Overlay · Planung
 Stand: 23.10.2026. Quelle: Eigentümerplanung vom 23.10.2026 und ausdrücklicher Auftrag zur Dokumentation auf GitHub und Discord.
 
@@ -51,3 +82,6 @@ Diese Schritte sind Planung; keine davon wird hier als bereits implementiert gem
 Gewünscht sind ein Discord-Projektforum, öffentliche Projektbeschreibung, eigener Projektbereich mit Infos/Austausch/Fehler-und-Ideen/GitHub-Updates sowie eine einzeln wählbare Projektrolle im bestehenden Stil. Zugang soll wie bei den vorhandenen Projekten an bestätigte Aufnahme und die jeweilige Projektwahl gebunden sein.
 
 GitHub-Meldungen des neuen Projekts sollen sowohl im eigenen Projektkanal als auch im allgemeinen GitHub-Kanal erscheinen. Bestehende Zuordnungen anderer Projekte sollen dabei erhalten bleiben. Die Einrichtung und tatsächliche Zustellung werden getrennt von dieser Planung nachgewiesen.
+
+
+</details>

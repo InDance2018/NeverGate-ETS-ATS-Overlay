@@ -1,17 +1,16 @@
-# NeverGate-ETS-ATS-Overlay
+# NeverGate Virtual Control · ETS/ATS-Overlay
 
-Eigenständiges NeverGate-Overlay für Euro Truck Simulator 2 und American Truck Simulator mit eigener Telemetrie-Anbindung, Windows-Installer und den zehn bestehenden NeverGate-Browser-Themes.
+Eigenständiges NeverGate-Overlay für Euro Truck Simulator 2 und American Truck Simulator mit Windows-Bedienoberfläche und eigener Telemetrie-Anbindung.
 
-**Stand: 23.10.2026 · Planung dokumentiert.** Eine erste installierbare Versuchsfassung ist beauftragt; ein funktionierender Build oder Download ist noch nicht nachgewiesen.
+**Stand: 31.10.2026.** Über den ursprünglichen Planungsstand hinaus wurde eine Versuchsfassung **0.2.0** im begleiteten Nutzertest berichtet. Das Overlay wurde sichtbar; die Anzeige war mit allen Funktionen zu groß und verdeckte die Spielsicht. Vollständiger aktueller Quell-/Installer-/Telemetrienachweis liegt in diesem Repository noch nicht vor. Kein öffentlicher GitHub-Release oder geprüfter öffentlicher Download.
 
-## Geplanter erster Umfang
-- ETS2/ATS erkennen und Telemetrie beim Spielstart bereitstellen.
-- Telemetrie-Plugin möglichst automatisch in erkannten Spielverzeichnissen installieren.
-- Overlay vollständig ein-/ausschalten und einzelne Anzeigen auswählen.
-- Einstellungen über die installierte Windows-Oberfläche verwalten.
-- Alle zehn bestehenden Browser-Themes bereits bei der Einrichtung auswählen.
-- Zuerst zuverlässigen Overlay-Betrieb herstellen; virtuelle Speditionsgründung später separat planen.
+[Aktueller Status](STATUS.md) · [Anforderungen und Abnahme](PLANUNG.md)
 
-[Verbindliche Planung, offene Entscheidungen und Abnahme](PLANUNG.md)
+## Aktueller Schwerpunkt
 
-Öffentliches NeverGate-Projekt. Eigenständige Entwicklung mit eigenem Code und eigener Gestaltung.
+- Kompakte Fahrzeugzeile mit kleiner Auftragszeile darunter; keine dreizeilige große Anzeige.
+- Kleine Symbole, einzeiliger Prozentbalken und gezielt wählbare Informationen.
+- ETS2/ATS im randlosen Fensterbetrieb, auch bei mehreren Monitoren.
+- Ein-/Ausschalten, automatische Spiele-/Telemetrie-Erkennung, Windows-Installer und zehn vorhandene Themes.
+
+Die Bezeichnung NeverGate Virtual Control beschreibt die gewünschte Oberfläche. Das Repository behält seinen bisherigen Namen. Eigener Code und eigene Gestaltung; fremde Anwendungen und Assets werden nicht übernommen.
