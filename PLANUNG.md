@@ -1,10 +1,16 @@
 # NeverGate Virtual Control · fortgeschriebene Planung
 
-Stand: **31.10.2026**. [Aktueller Nachweisstand](STATUS.md).
+Stand: **01.11.2026**. [Aktueller Nachweisstand](STATUS.md).
+
+## Nachgetragene Entwicklung bis 0.3.3
+
+Die Entwicklungsberichte vom 23./24.10. melden inzwischen eine Auftragszeile (0.3.0), kompaktere Bedienoberfläche (0.3.1), durchgehende linke Seitenleiste (0.3.2) und ein Overlay-Untermenü mit NG-Kennung (0.3.3). Layout-/Installerprüfungen wurden gemeldet; echte Windows-/Spieltests bleiben offen. Details: [Status](STATUS.md) und [Änderungsübersicht](CHANGELOG.md).
+
+Die folgenden Anforderungen sind daher teils als umgesetzt gemeldet, aber nicht vollständig abgenommen. Die historische Planung unten bleibt als damaliger Ausgangspunkt erhalten.
 
 ## Priorität nach dem Versuch
 
-Die gemeldete Versuchsfassung 0.2.0 war schließlich sichtbar, beanspruchte mit allen Funktionen aber zu viel Platz. Deshalb zuerst kompakte Gestaltung: Fahrzeugzeile plus dünne Auftragszeile, kleine Symbole, einzeiliger Prozentbalken weiß/grün. Keine große dreizeilige Überlagerung. Das Ziel ist eine eigene geordnete Oberfläche mit eigener Gestaltung.
+Die gemeldete Versuchsfassung 0.2.0 war schließlich sichtbar, beanspruchte mit allen Funktionen aber zu viel Platz. Die weitere Abstimmung sah kompakte Fahrzeugzeilen plus eine dünne Auftragszeile vor; die Auftragszeile wurde anschließend für 0.3.0 als umgesetzt gemeldet. Entscheidend bleibt eine kleine, geordnete Darstellung statt großer überdeckender Kästen. Das Ziel ist eine eigene geordnete Oberfläche mit eigener Gestaltung.
 
 ## Festgehaltener Umfang
 

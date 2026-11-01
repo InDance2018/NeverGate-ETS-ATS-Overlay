@@ -1,6 +1,6 @@
 # Discord · ETS-/ATS-Overlay
 
-Stand: 23.10.2026. Projektbereich nach regulärem Bot-Neustart eingerichtet und über Discord zurückgelesen.
+Dokumentationsstand: 01.11.2026. Die Einrichtung und das damalige Zurücklesen des Projektbereichs sind für den 23.10.2026 dokumentiert.
 
 - [Projektforum und Planung](https://discord.com/channels/1560249779626450996/1563160443302715432)
 - [Öffentliche NeverGate-Projektübersicht](https://discord.com/channels/1560249779626450996/1561333865577058304)
@@ -13,6 +13,6 @@ Stand: 23.10.2026. Projektbereich nach regulärem Bot-Neustart eingerichtet und 
 
 Die Projektrolle ist freiwillig und öffnet nach Regelbestätigung genau diesen Bereich. Erneuter Klick entfernt die Auswahl; andere gewählte Projekte bleiben erhalten.
 
-Der bestehende Bot prüft GitHub alle 15 Minuten. Neue Overlay-Commits sollen im eigenen Projektkanal und im allgemeinen GitHub-Kanal erscheinen. Neue Releases werden ebenfalls in beiden Bereichen angekündigt. Die Rollenlogik wurde simuliert und die tatsächlichen Kanalrechte beim Botstart geprüft. Eine persönliche Nutzerabnahme der Rollenwahl bleibt zusätzlich möglich.
+GitHub-Neuigkeiten werden durch den bestehenden Bot nach dessen zentral verwaltetem Abrufplan verarbeitet; diese Seite legt keine eigene Abruffrequenz fest. Neue Overlay-Commits sollen im eigenen Projektkanal und im allgemeinen GitHub-Kanal erscheinen. Neue Releases werden ebenfalls in beiden Bereichen angekündigt. Die Rollenlogik wurde simuliert und die tatsächlichen Kanalrechte beim Botstart geprüft. Eine persönliche Nutzerabnahme der Rollenwahl bleibt zusätzlich möglich.
 
-Das Overlay selbst befindet sich in Planung; die Discord-Einrichtung ist kein Nachweis eines funktionierenden Windows-Builds.
+Für das Overlay liegen Entwicklungsberichte bis 0.3.3 vor. Die Discord-Einrichtung ist weiterhin kein Nachweis einer vollständigen Windows-/Spielabnahme; siehe [aktuellen Status](STATUS.md).

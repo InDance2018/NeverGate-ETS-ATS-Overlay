@@ -1,16 +1,20 @@
 # NeverGate Virtual Control · ETS/ATS-Overlay
 
-Eigenständiges NeverGate-Overlay für Euro Truck Simulator 2 und American Truck Simulator mit Windows-Bedienoberfläche und eigener Telemetrie-Anbindung.
+Eigenständiges NeverGate-Overlay für Euro Truck Simulator 2 und American Truck Simulator mit Windows-Bedienoberfläche und Telemetrie-Anbindung.
 
-**Stand: 31.10.2026.** Über den ursprünglichen Planungsstand hinaus wurde eine Versuchsfassung **0.2.0** im begleiteten Nutzertest berichtet. Das Overlay wurde sichtbar; die Anzeige war mit allen Funktionen zu groß und verdeckte die Spielsicht. Vollständiger aktueller Quell-/Installer-/Telemetrienachweis liegt in diesem Repository noch nicht vor. Kein öffentlicher GitHub-Release oder geprüfter öffentlicher Download.
+**Dokumentationsstand: 01.11.2026.** Der bisherige Eintrag zu 0.2.0 war unvollständig: Entwicklungsberichte vom 23./24.10. melden bereits die Fassungen **0.3.0 bis 0.3.3**. Zuletzt wurden ein aufklappbarer Overlay-Menübereich und die NG-Kennung ergänzt. Diese Berichte sind noch keine vollständige Windows-/Spielabnahme und kein hier geprüfter Download.
 
-[Aktueller Status](STATUS.md) · [Anforderungen und Abnahme](PLANUNG.md)
+[Aktueller Status](STATUS.md) · [Änderungsübersicht](CHANGELOG.md) · [Anforderungen und Abnahme](PLANUNG.md) · [Discord](DISCORD.md)
 
-## Aktueller Schwerpunkt
+## Gemeldete Weiterentwicklung
 
-- Kompakte Fahrzeugzeile mit kleiner Auftragszeile darunter; keine dreizeilige große Anzeige.
-- Kleine Symbole, einzeiliger Prozentbalken und gezielt wählbare Informationen.
-- ETS2/ATS im randlosen Fensterbetrieb, auch bei mehreren Monitoren.
-- Ein-/Ausschalten, automatische Spiele-/Telemetrie-Erkennung, Windows-Installer und zehn vorhandene Themes.
+- Dünne Auftragszeile mit einzeln wählbaren Angaben zu Fracht, Gewicht, Start, Ziel, Reststrecke und Fahrzeit (0.3.0).
+- Kleinere Schrift, schmale Buttons, kompakte Zeilen und weniger auseinandergezogene Bedienoberfläche (0.3.1).
+- Linke Navigation bis zum unteren Fensterrand; Spielkennung und Version links unten (0.3.2).
+- Aufklappbarer Menüpunkt **Overlay** mit Unterseiten, NG-Logo und NeverGate-Kennung (0.3.3).
 
-Die Bezeichnung NeverGate Virtual Control beschreibt die gewünschte Oberfläche. Das Repository behält seinen bisherigen Namen. Eigener Code und eigene Gestaltung; fremde Anwendungen und Assets werden nicht übernommen.
+## Noch zu prüfen
+
+Echter Betrieb in beiden Spielen, kompakte Ansicht mit vielen aktivierten Anzeigen, vollständiger Autostart auch nach beendetem Programm, Plugininstallation/-aktualisierung, Themeauswahl und Mehrmonitorverhalten bleiben gesonderte Abnahmepunkte.
+
+Es gibt hier weiterhin keinen öffentlichen GitHub-Release oder geprüften öffentlichen Installer. Dieses Repository enthält öffentliche Dokumentation, nicht den Programmquellcode. Eigene Gestaltung; keine Übernahme fremder Anwendungen oder Assets.

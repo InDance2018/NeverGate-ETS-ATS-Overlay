@@ -1,27 +1,32 @@
 # ETS/ATS-Overlay · aktueller Stand
 
-Stand: **31.10.2026**. Projekt-/Oberflächenname: **NeverGate Virtual Control**.
+Dokumentation geprüft am **01.11.2026**. Projektbezeichnung: **NeverGate Virtual Control**; die gemeldete Oberfläche 0.3.3 verwendet „NeverGate Virtuell Control“.
 
-| Bereich | Nachweis / Stand |
-|---|---|
-| GitHub | Öffentliches Repository mit Planung und Projektbeschreibung; aktueller Programmquellstand/Installer noch nachzuführen |
-| Versuchsfassung | 0.2.0 aus begleitetem Nutzerbericht; anfangs nicht sichtbar, später sichtbar |
-| Bedien-/Spielansicht | Bei eingeschalteten Funktionen verdeckte das Overlay zu viel Spielsicht; große Symbole und drei Zeilen abgelehnt |
-| Öffentlicher Release | Noch kein GitHub-Release vorhanden |
-| Spielprüfung | Keine vollständige getrennte ETS2-/ATS-Abnahme mit exakten Build-/Telemetrieversionen im Repository |
+## Nachgetragene Entwicklungsberichte
 
-## Verbindliche nächste Gestaltung
+| Datum | Version | Gemeldeter Inhalt | Prüfgrenze |
+| --- | --- | --- | --- |
+| 23.10.2026 | 0.2.0 | Fahrzeugleiste; Nutzer meldete nach anfänglicher Verzögerung sichtbares Overlay | Zu große Darstellung beanstandet |
+| 23.10.2026 | 0.3.0 | Dünne Auftragszeile: Fracht, Gewicht, Start, Ziel, Reststrecke, Fahrzeit; Angaben einzeln schaltbar | Datenprüfungen/Installerprüfung gemeldet; echter Spieltest offen |
+| 23.10.2026 | 0.3.1 | Kompaktere Schrift, Buttons und Zeilen; verbessertes Verhalten beim Vergrößern | Layout-/Installerprüfung gemeldet; Windows-Test offen |
+| 24.10.2026 | 0.3.2 | Seitenleiste bis unten, Spielkennung und Version unten links | Layout-/Installerprüfung gemeldet; Windows-Test offen |
+| 24.10.2026 | 0.3.3 | Aufklappbarer Overlay-Bereich mit Unterseiten und NG-Kennung | Menü-/Installerprüfung gemeldet; Windows-Test offen |
 
-Fahrzeugdaten in einer kompakten Zeile, Auftragsdaten in einer dünnen Zeile darunter. Kleine Symbole möglichst in einer Reihe; einzeiliger Fortschritt mit Prozentzahl und weiß/grünem Balken. Beleuchtung, Blinker/Warnblinker, Parkbremse, Retarder, Drehzahl und Lkw-Daten sowie Session/Auftrag/Ortung gezielt auswählbar. Keine dauerhafte große dreizeilige Überlagerung.
+Diese Tabelle gibt frisch gelesene Entwicklungsberichte wieder. Die Dateien und die damaligen Prüfsummen wurden bei dieser Dokumentationspflege nicht erneut technisch geprüft. Die Sichtprüfung einer früheren Fassung ist keine Gesamtabnahme späterer Fassungen.
 
-Bedienoberfläche mit linker Navigation bis unten, Overlay-Unterpunkten, Versionsangaben unten links und NeverGate-Virtual-Control-Kennung. Zehn vorhandene Themes bereits im Installer auswählbar. Diese Anforderungen sind kein Implementierungsnachweis.
+## Offene Abnahme
 
-## Noch technisch nachzuweisen
+- Tatsächlich installierte Version eindeutig feststellen und gegen den Testbuild abgleichen.
+- Plugin-Version und Bedarf einer Installation/Aktualisierung verständlich anzeigen.
+- Kompakte Fahrzeugdarstellung plus dünne Auftragszeile bei vielen aktiven Angaben im Spiel prüfen.
+- Beide Spiele einzeln: aktueller Auftrag, frische Telemetrie, Pause, Spielende und Neustart.
+- Verzögerte Anzeige nach Einschalten prüfen.
+- Automatischer Programmstart beim Spielstart auch nach vollständig beendetem Programm: ausdrücklich gewünscht, im gelesenen Bericht noch nicht vollständig umgesetzt.
+- Gesamtschalter und Auswahl nach Neustart erhalten; Standard- und abweichende Spielpfade, vorhandenes Plugin, randloser Betrieb und mehrere Monitore testen.
+- Zehn Themes einschließlich Einrichtung getrennt nachweisen.
 
-- Aktuelle Quellen, Windows-Installer und Telemetrie mit Version, Dateigröße und Prüfsumme.
-- Erkennung der Standard-Spielpfade, automatische Plugin-Einrichtung sowie Verhalten bei abweichenden Pfaden/bestehendem Plugin.
-- Automatischer Start im Zusammenhang mit dem Spiel, Gesamtschalter und dauerhaft gespeicherte Anzeigeauswahl.
-- Beide Spiele einzeln: frische Telemetrie, Pause/Spielende/Neustart, kein Anzeigen alter Daten als aktuelle Messwerte.
-- Randloser Fensterbetrieb und Mehrmonitorpositionierung; kompakte Ansicht mit allen gewünschten Funktionen.
+## Veröffentlichung
 
-[Planung](PLANUNG.md). Nutzerrückmeldung zur sichtbaren Versuchsfassung, technischer Buildnachweis und vollständige Spielabnahme bleiben getrennt. Die Dokumentationspflege vom 31.10. führt keinen neuen Build oder Spieltest aus und veröffentlicht keinen Installer.
+Das Repository enthält Dokumentation, keinen aktuellen Programmquellstand und keinen Installer. Die GitHub-Release-Liste war bei der Prüfung leer. Es wurde hier weder ein Build erstellt noch ein Spieltest ausgeführt oder ein Download veröffentlicht.
+
+[Planung](PLANUNG.md) · [Änderungsübersicht](CHANGELOG.md)
